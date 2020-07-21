@@ -302,7 +302,7 @@ footer .right-wrapper-other span {
     padding-top: 50px;
   }
   #first-section .left-wrapper a {
-    font-size: 15px;
+    font-size: 13px;
   }
   #second-section {
     text-align: center;
@@ -314,7 +314,7 @@ footer .right-wrapper-other span {
     font-size: 30px;
   }
   #second-section .right-wrapper a {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   #third-section .title-container h1 {
@@ -372,7 +372,7 @@ footer .right-wrapper-other span {
     text-align: center;
   }
   #fourth-section .right-wrapper-other form .align-submit input {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 /* Customize the label (the container) */
