@@ -38,8 +38,6 @@ header{
       padding-top: 40px;
       span{
         font-weight: bold;
-        position: relative;
-        top: 15px;
         text-transform: uppercase;
         padding-left: 10px;
         font-size: 14px;
@@ -335,10 +333,8 @@ $font-size-mobile-button: 13px;
       padding-bottom: 40px;
       span{
         padding-bottom: 10px;
+        padding-right: 0;
         display: block;
-      }
-      img {
-        text-align: center;
       }
     }
   }
