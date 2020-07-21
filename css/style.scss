@@ -326,6 +326,8 @@ footer{
   }
 }
 
+$font-size-mobile-button: 15px;
+
 @media (max-width: 768px){
   footer{
     .right-wrapper{
@@ -346,7 +348,7 @@ footer{
       p{
       }
       a{
-        font-size: 13px;
+        font-size: $font-size-mobile-button;
         &:hover{
         }
       }
@@ -370,7 +372,7 @@ footer{
       font-size: 30px;
     }
     a{
-      font-size: 13px;
+      font-size: $font-size-mobile-button;
     }
   }
 }
@@ -488,7 +490,7 @@ footer{
       .align-submit{
         text-align: center;
         input{
-          font-size: 13px;
+          font-size: $font-size-mobile-button;
         }
       }
     }
