@@ -324,7 +324,7 @@ footer{
   }
 }
 
-$font-size-mobile-button: 13px;
+$font-size-mobile-button: 17px;
 
 @media (max-width: 768px){
   footer{
@@ -391,14 +391,15 @@ $font-size-mobile-button: 13px;
       }
       .right-wrapper{
         text-align: center;
+        padding-left: 0px;
         .person-container{
           .person-name{
             &:after{
             }
           }
           small{
-            padding-left: 20px;
-            padding-right: 20px;
+            padding-left: 0px;
+            padding-right: 0px;
           }
         }
         h3{
@@ -528,13 +529,6 @@ $font-size-small-mobile-button: 11px;
       }
       a{
         font-size: $font-size-small-mobile-button;
-      }
-    }
-  }
-  #third-section{
-    .outer-container{
-      .right-wrapper{
-        padding-left: 0px;
       }
     }
   }
