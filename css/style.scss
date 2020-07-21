@@ -1,0 +1,575 @@
+$red: #da2e33;
+
+.no-padding{
+  padding: 0!important;
+}
+
+.no-padding-right{
+  padding-right: 0!important;
+}
+
+.no-padding-left{
+  padding-left: 0!important;
+}
+
+.btn-style{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background: $red;
+  padding: 10px 30px 10px 30px;
+  border: 2px solid black;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+body{
+  font-family: 'Lato'!important;
+  color: #2d2c2c!important;
+}
+
+p{
+  font-size: 18px;
+}
+
+header{
+  nav{
+    .header-wrapper{
+      padding-top: 40px;
+      span{
+        font-weight: bold;
+        position: relative;
+        top: 15px;
+        text-transform: uppercase;
+        padding-left: 10px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+footer{
+  background: #282828;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  color: white;
+  text-align: center;
+  .right-wrapper-other{
+    text-align: right;
+    position: relative;
+    top: 60px;
+    span{
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 600;
+      padding-right: 20px;
+    }
+  }
+}
+
+.section{
+  width: 100%;
+  display: inline-block;
+}
+
+#first-section{
+  // padding-bottom: 20px;
+  .left-wrapper{
+    text-align: center;
+    position: relative;
+    top: -50px;
+    img{
+      width: 100%;
+    }
+    p{
+      padding-top: 15px;
+      padding-bottom: 15px;
+      line-height: 20px;
+    }
+    a{
+      @extend .btn-style;
+      &:hover{
+          text-decoration: none;
+      }
+    }
+  }
+  .right-wrapper{
+    // position: relative;
+    // top: 60px;
+    text-align: center;
+    img{
+      width: 90%;
+    }
+  }
+}
+
+#second-section{
+  background: #f8d7ad;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  .left-wrapper{
+    img{
+      width: 100%;
+    }
+  }
+  .right-wrapper{
+    h1{
+      color: $red;
+      font-weight: 900;
+      font-size: 40px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    a{
+      @extend .btn-style;
+      margin-top: 20px;
+      display: inline-block;
+    }
+  }
+}
+
+#third-section{
+  background: #db2f34;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  .title-container{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 45px;
+    margin-top: 20px;
+    h1{
+      color: white;
+      font-size: 40px;
+      font-weight: 900;
+    }
+  }
+  .outer-container{
+    background-image: linear-gradient(to right, #535459, #28292b);
+    width: 100%;
+    border-radius: 10px;
+    .left-wrapper{
+      text-align: center;
+    }
+    .right-wrapper{
+      color: white;
+      padding-top: 17px;
+      padding-left: 20px;
+      .person-container{
+        .person-name{
+          font-weight: 900;
+          font-size: 30px;
+          &:after{
+            content: '';
+            width: 225px;
+            background: #da2e33;
+            height: 10px;
+            display: inline-block;
+            left: 10px;
+            bottom: 3px;
+            position: relative;
+          }
+        }
+        small{
+          font-weight: 400;
+          font-size: 12px;
+          width: 100%;
+          display: inline-block;
+          text-transform: uppercase;
+        }
+      }
+      h3{
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 900;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .bottom-wrapper{
+        .red-box{
+          background: $red; 
+          padding: 10px 20px 10px 20px;
+          font-size: 30px;
+          font-weight: 900;
+        }
+        .red-box-text{
+          text-transform: uppercase;
+          font-size: 16px;
+          font-weight: 400;
+          padding-left: 15px;
+          a{
+            color: white;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  .outer-whitebox-container{
+    margin-top: 30px;
+    .outer-white-box{
+      background: white;
+      padding: 20px 25px 20px 25px;
+      border-radius: 10px;
+      height: 375px;
+      h1{
+        font-weight: 900;
+        width: 60%;
+        color: black;
+        font-size: 26px;
+        text-transform: uppercase;
+      }
+      .red-dash{
+        width: 100px;
+        height: 10px;
+        background: $red;
+        display: inline-block;
+      }
+      .bottom-container{
+        .left-wrapper{
+          p{
+            font-size: 20px;
+            line-height: 25px;
+            position: relative;
+            top: 15px;
+          }
+        }
+        .right-wrapper{
+          text-align: right;
+          span{
+            width: 100%;
+            display: inline-block;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            color: #6d6e71;
+            text-transform: uppercase;
+            line-height: 20px;
+          }
+          .red-box{
+            background: #da2e33;
+            display: inline-block;
+            clear: both;
+            padding: 5px 15px 5px 15px;
+            color: #fff;
+            font-weight: 900;
+            font-size: 25px;
+          }
+        }
+      }
+    }
+  }
+  .padding-adjust{
+    padding-top: 30px;
+  }
+}
+
+#fourth-section{
+  padding-top: 30px;
+  padding-bottom: 45px;
+  background: #f8d7ad;
+  .left-wrapper-other{
+    h1{
+      color: $red;
+      font-weight: 900;
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    p{
+      padding-right: 70px;
+    }
+    .img-align{
+      margin-top: 40px;
+      text-align: center;
+      img{
+        // width: 65%;
+      }
+    }
+  }
+  .right-wrapper-other{
+    h4{
+      font-size: 28px;
+      color: black;
+      font-weight: 900;
+      margin-top: 55px;
+    }
+    form{
+      .text-input-container{
+        width: 80%;
+        .input-text{
+          width: 100%;
+          height: 45px;
+          border: none;
+          margin-top: 15px;
+          text-indent: 15px;
+        }
+      }
+      h5{
+        color: #282828;
+        font-size: 18px;
+        font-weight: 900;
+        margin-top: 25px;
+        margin-bottom: 20px;
+      }
+      .checkbox-wrapper{
+        input{
+
+        }
+        label{
+          cursor: pointer;
+        }
+      }
+      .btn-submit{
+        @extend .btn-style;
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px){
+  footer{
+    .right-wrapper{
+      text-align: center;
+      padding-bottom: 40px;
+      span{
+        padding-bottom: 30px;
+        display: inline-block;
+      }
+    }
+  }
+  #first-section{
+    padding-bottom: 20px;
+    padding-top: 50px;
+    .left-wrapper{
+      img{
+      }
+      p{
+      }
+      a{
+        font-size: 17px;
+        &:hover{
+        }
+      }
+    }
+    .right-wrapper{
+      // position: relative;
+      // top: 60px;
+      img{
+      }
+    }
+  }
+  #second-section{
+    text-align: center;
+  .left-wrapper{
+    img{
+      display: none;
+    }
+  }
+  .right-wrapper{
+    h1{
+      font-size: 30px;
+    }
+    a{
+      font-size: 17px;
+    }
+  }
+}
+#third-section{
+  .title-container{
+    h1{
+      font-size: 30px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  .outer-container{
+    .left-wrapper{
+      img{
+        width: 100%;
+      }
+    }
+    .right-wrapper{
+      text-align: center;
+      .person-container{
+        .person-name{
+          &:after{
+          }
+        }
+        small{
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+      h3{
+      }
+      .bottom-wrapper{
+        .red-box{
+        }
+        .red-box-text{
+          clear: both;
+          width: 100%;
+          display: inline-block;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          a{
+          }
+        }
+      }
+    }
+  }
+  .outer-whitebox-container{
+    .no-padding-left{
+
+    }
+    .outer-white-box{
+      margin-bottom: 20px;
+      height: 455px;
+      h1{
+        width: 100%;
+      }
+      .red-dash{
+      }
+      .bottom-container{
+        .left-wrapper{
+          p{
+          }
+        }
+        .right-wrapper{
+          span{
+          }
+          .red-box{
+          }
+        }
+      }
+    }
+  }
+  .padding-adjust{
+    padding-top: 0px;
+  }
+}
+
+#fourth-section{
+  text-align: center;
+  .left-wrapper-other{
+    h1{
+      font-size: 30px;
+    }
+    p{
+      padding-right: 0px;
+    }
+    .img-align{
+      img{
+
+        width: 100%;
+      }
+    }
+  }
+  .right-wrapper-other{
+    h4{
+    }
+    form{
+      text-align: left;
+      .text-input-container{
+        width: 100%;
+        .input-text{
+        }
+      }
+      h5{
+      }
+      .checkbox-wrapper{
+        input{
+
+        }
+        label{
+        }
+      }
+      .btn-submit{
+      }
+      .align-submit{
+        text-align: center;
+        input{
+          font-size: 17px;
+        }
+      }
+    }
+  }
+}
+  
+}
+
+// @media (min-width: 1200px) {
+//   .container {
+//     max-width: 1000px!important;
+//   }
+// }
+
+
+ /* Customize the label (the container) */
+.checkbox-wrapper {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 17px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-wrapper input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  left: 0px;
+  z-index: 999;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-wrapper:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-wrapper input:checked ~ .checkmark {
+  background-color: $red;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-wrapper input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-wrapper .checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+} 

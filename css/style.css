@@ -1,0 +1,445 @@
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-padding-right {
+  padding-right: 0 !important;
+}
+
+.no-padding-left {
+  padding-left: 0 !important;
+}
+
+.btn-style, #fourth-section .right-wrapper-other form .btn-submit, #second-section .right-wrapper a, #first-section .left-wrapper a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background: #da2e33;
+  padding: 10px 30px 10px 30px;
+  border: 2px solid black;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+body {
+  font-family: "Lato" !important;
+  color: #2d2c2c !important;
+}
+
+p {
+  font-size: 18px;
+}
+
+header nav .header-wrapper {
+  padding-top: 40px;
+}
+header nav .header-wrapper span {
+  font-weight: bold;
+  position: relative;
+  top: 15px;
+  text-transform: uppercase;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+footer {
+  background: #282828;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  color: white;
+  text-align: center;
+}
+footer .right-wrapper-other {
+  text-align: right;
+  position: relative;
+  top: 60px;
+}
+footer .right-wrapper-other span {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding-right: 20px;
+}
+
+.section {
+  width: 100%;
+  display: inline-block;
+}
+
+#first-section .left-wrapper {
+  text-align: center;
+  position: relative;
+  top: -50px;
+}
+#first-section .left-wrapper img {
+  width: 100%;
+}
+#first-section .left-wrapper p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 20px;
+}
+#first-section .left-wrapper a:hover {
+  text-decoration: none;
+}
+#first-section .right-wrapper {
+  text-align: center;
+}
+#first-section .right-wrapper img {
+  width: 90%;
+}
+
+#second-section {
+  background: #f8d7ad;
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+#second-section .left-wrapper img {
+  width: 100%;
+}
+#second-section .right-wrapper h1 {
+  color: #da2e33;
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#second-section .right-wrapper a {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+#third-section {
+  background: #db2f34;
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+#third-section .title-container {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 45px;
+  margin-top: 20px;
+}
+#third-section .title-container h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 900;
+}
+#third-section .outer-container {
+  background-image: linear-gradient(to right, #535459, #28292b);
+  width: 100%;
+  border-radius: 10px;
+}
+#third-section .outer-container .left-wrapper {
+  text-align: center;
+}
+#third-section .outer-container .right-wrapper {
+  color: white;
+  padding-top: 17px;
+  padding-left: 20px;
+}
+#third-section .outer-container .right-wrapper .person-container .person-name {
+  font-weight: 900;
+  font-size: 30px;
+}
+#third-section .outer-container .right-wrapper .person-container .person-name:after {
+  content: "";
+  width: 225px;
+  background: #da2e33;
+  height: 10px;
+  display: inline-block;
+  left: 10px;
+  bottom: 3px;
+  position: relative;
+}
+#third-section .outer-container .right-wrapper .person-container small {
+  font-weight: 400;
+  font-size: 12px;
+  width: 100%;
+  display: inline-block;
+  text-transform: uppercase;
+}
+#third-section .outer-container .right-wrapper h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 900;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#third-section .outer-container .right-wrapper .bottom-wrapper .red-box {
+  background: #da2e33;
+  padding: 10px 20px 10px 20px;
+  font-size: 30px;
+  font-weight: 900;
+}
+#third-section .outer-container .right-wrapper .bottom-wrapper .red-box-text {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 15px;
+}
+#third-section .outer-container .right-wrapper .bottom-wrapper .red-box-text a {
+  color: white;
+  text-decoration: underline;
+}
+#third-section .outer-whitebox-container {
+  margin-top: 30px;
+}
+#third-section .outer-whitebox-container .outer-white-box {
+  background: white;
+  padding: 20px 25px 20px 25px;
+  border-radius: 10px;
+  height: 375px;
+}
+#third-section .outer-whitebox-container .outer-white-box h1 {
+  font-weight: 900;
+  width: 60%;
+  color: black;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+#third-section .outer-whitebox-container .outer-white-box .red-dash {
+  width: 100px;
+  height: 10px;
+  background: #da2e33;
+  display: inline-block;
+}
+#third-section .outer-whitebox-container .outer-white-box .bottom-container .left-wrapper p {
+  font-size: 20px;
+  line-height: 25px;
+  position: relative;
+  top: 15px;
+}
+#third-section .outer-whitebox-container .outer-white-box .bottom-container .right-wrapper {
+  text-align: right;
+}
+#third-section .outer-whitebox-container .outer-white-box .bottom-container .right-wrapper span {
+  width: 100%;
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #6d6e71;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+#third-section .outer-whitebox-container .outer-white-box .bottom-container .right-wrapper .red-box {
+  background: #da2e33;
+  display: inline-block;
+  clear: both;
+  padding: 5px 15px 5px 15px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 25px;
+}
+#third-section .padding-adjust {
+  padding-top: 30px;
+}
+
+#fourth-section {
+  padding-top: 30px;
+  padding-bottom: 45px;
+  background: #f8d7ad;
+}
+#fourth-section .left-wrapper-other h1 {
+  color: #da2e33;
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+#fourth-section .left-wrapper-other p {
+  padding-right: 70px;
+}
+#fourth-section .left-wrapper-other .img-align {
+  margin-top: 40px;
+  text-align: center;
+}
+#fourth-section .right-wrapper-other h4 {
+  font-size: 28px;
+  color: black;
+  font-weight: 900;
+  margin-top: 55px;
+}
+#fourth-section .right-wrapper-other form .text-input-container {
+  width: 80%;
+}
+#fourth-section .right-wrapper-other form .text-input-container .input-text {
+  width: 100%;
+  height: 45px;
+  border: none;
+  margin-top: 15px;
+  text-indent: 15px;
+}
+#fourth-section .right-wrapper-other form h5 {
+  color: #282828;
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+#fourth-section .right-wrapper-other form .checkbox-wrapper label {
+  cursor: pointer;
+}
+#fourth-section .right-wrapper-other form .btn-submit {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  footer .right-wrapper {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  footer .right-wrapper span {
+    padding-bottom: 30px;
+    display: inline-block;
+  }
+
+  #first-section {
+    padding-bottom: 20px;
+    padding-top: 50px;
+  }
+  #first-section .left-wrapper a {
+    font-size: 17px;
+  }
+  #second-section {
+    text-align: center;
+  }
+  #second-section .left-wrapper img {
+    display: none;
+  }
+  #second-section .right-wrapper h1 {
+    font-size: 30px;
+  }
+  #second-section .right-wrapper a {
+    font-size: 17px;
+  }
+
+  #third-section .title-container h1 {
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #third-section .outer-container .left-wrapper img {
+    width: 100%;
+  }
+  #third-section .outer-container .right-wrapper {
+    text-align: center;
+  }
+  #third-section .outer-container .right-wrapper .person-container small {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #third-section .outer-container .right-wrapper .bottom-wrapper .red-box-text {
+    clear: both;
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #third-section .outer-whitebox-container .outer-white-box {
+    margin-bottom: 20px;
+    height: 455px;
+  }
+  #third-section .outer-whitebox-container .outer-white-box h1 {
+    width: 100%;
+  }
+  #third-section .padding-adjust {
+    padding-top: 0px;
+  }
+
+  #fourth-section {
+    text-align: center;
+  }
+  #fourth-section .left-wrapper-other h1 {
+    font-size: 30px;
+  }
+  #fourth-section .left-wrapper-other p {
+    padding-right: 0px;
+  }
+  #fourth-section .left-wrapper-other .img-align img {
+    width: 100%;
+  }
+  #fourth-section .right-wrapper-other form {
+    text-align: left;
+  }
+  #fourth-section .right-wrapper-other form .text-input-container {
+    width: 100%;
+  }
+  #fourth-section .right-wrapper-other form .align-submit {
+    text-align: center;
+  }
+  #fourth-section .right-wrapper-other form .align-submit input {
+    font-size: 17px;
+  }
+}
+/* Customize the label (the container) */
+.checkbox-wrapper {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 17px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-wrapper input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  left: 0px;
+  z-index: 999;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-wrapper:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-wrapper input:checked ~ .checkmark {
+  background-color: #da2e33;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-wrapper input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-wrapper .checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*# sourceMappingURL=style.css.map */
