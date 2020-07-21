@@ -371,6 +371,37 @@ footer .right-wrapper-other span {
     font-size: 13px;
   }
 }
+@media (max-width: 384px) {
+  header nav .header-wrapper img {
+    width: 28%;
+  }
+  header nav .header-wrapper span {
+    padding-left: 3px;
+    font-size: 12px;
+  }
+
+  #first-section .left-wrapper a {
+    font-size: 11px;
+  }
+
+  #second-section .right-wrapper h1 {
+    font-size: 26px;
+  }
+  #second-section .right-wrapper a {
+    font-size: 11px;
+  }
+
+  #third-section .outer-container .right-wrapper {
+    padding-left: 0px;
+  }
+
+  #fourth-section .left-wrapper-other h1 {
+    font-size: 26px;
+  }
+  #fourth-section .right-wrapper-other form .align-submit input {
+    font-size: 11px;
+  }
+}
 /* Customize the label (the container) */
 .checkbox-wrapper {
   display: block;
