@@ -330,12 +330,15 @@ $font-size-mobile-button: 15px;
 
 @media (max-width: 768px){
   footer{
-    .right-wrapper{
+    .right-wrapper-other{
       text-align: center;
       padding-bottom: 40px;
       span{
-        padding-bottom: 30px;
-        display: inline-block;
+        padding-bottom: 10px;
+        display: block;
+      }
+      img {
+        text-align: center;
       }
     }
   }
